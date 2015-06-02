@@ -135,9 +135,6 @@ h1 {
 
 .footer {
 	clear: both;
-	font-family: 'Courier New' serif;
-	font-size: 22px;
-	color: white;
 	text-align: center;
 	padding: 100px 100px;
 }
@@ -185,6 +182,11 @@ h1 {
 	clear: both;
 }
 
+.tammy {
+	display: block;
+	margin: 50px auto;
+	max-width: 35%;
+}
 
 
 

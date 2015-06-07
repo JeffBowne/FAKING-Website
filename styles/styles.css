@@ -93,13 +93,17 @@ h1 {
 }
 
 .sideblurb {
-	padding: 0px 20px 20px 20px;
+	padding: 0px 20px 60px 20px;
 	font-size: .9vw;
 	color: gray;
 }
 
+.releases {
+	color: #F15206;
+	font-size: 1.2vw;
+}
+
 .minicover {
-	padding: 20px 0 0px 0;
 	display: block;
 	width: 80%;
 	max-width: 80%;
@@ -114,6 +118,7 @@ h1 {
 .sidedate {
 	font-size: 1vw;
 	color: gray;
+	padding: 0 0 20px 0;
 }
 
 .links {

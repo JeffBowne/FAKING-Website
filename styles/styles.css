@@ -207,6 +207,25 @@ h1 {
 	display: block;
 }
 
+.reviewlink {
+	margin: 40px auto;
+	text-align: center;
+}
+
+.reviewlink a {
+	color: #F15206;
+	text-decoration: underline;
+}
+
+.reviewlink a:hover {
+	color: #F15206;
+	text-decoration: line-through;
+}
+
+.reviewlink a:visited {
+	color: #F15206;
+}
+
 .sitting {
 	display: block;
 	margin: 0px auto;

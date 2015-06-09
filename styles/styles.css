@@ -4,7 +4,7 @@ html {
 }
 
 
-/*    Boxes    */
+/*  --------------------  Boxes  --------------------  */
 
 
 .top {
@@ -30,7 +30,7 @@ html {
 }
 
 
-/*    Steady Content    */
+/*  --------------------  Steady Content  --------------------  */
 
 
 .content {
@@ -68,7 +68,7 @@ nav a:visited {
 	color: #F15206;
 }
 
-/*    Side Bar    */
+/*  --------------------  Side Bar  --------------------  */
 
 
 .sidebar {
@@ -138,7 +138,7 @@ h1 {
 }
 
 
-/*    Pages    */
+/*  --------------------  Pages  --------------------  */
 
 
 .mainblurb {
@@ -213,6 +213,17 @@ h1 {
 	max-width: 45%;
 }
 
+.videotitles {
+	margin: 60px 0 0 0;
+	text-align: center;
+	color: gray;
+	font-size: 2vw;
+}
 
+.videoframe {
+	display: block;
+	margin: 0 auto 40px auto;
+	max-width: 80%;
+}
 
 

@@ -371,20 +371,6 @@ h1 {
 	margin: 10px auto;
 }
 
-.c02 {
-	display: block;
-	max-width: 90%;
-	clear: both;
-	margin: 100px auto 10px auto;
-}
-
-.c03 {
-	display: block;
-	max-width: 90%;
-	clear: both;
-	margin: 10px auto;
-}
-
 .d02 {
 	display: block;
 	max-width: 60%;
@@ -405,6 +391,21 @@ h1 {
 	margin: 0 7% 100px 0;
 	float: right;
 }
+
+.c02 {
+	display: block;
+	max-width: 90%;
+	clear: both;
+	margin: 0 auto 10px auto;
+}
+
+.c03 {
+	display: block;
+	max-width: 90%;
+	clear: both;
+	margin: 10px auto;
+}
+
 
 
 

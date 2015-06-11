@@ -29,6 +29,15 @@ html {
 	margin: 0 auto;
 }
 
+.cluster-p {
+	width: 80%;	
+	height: 5500px;
+	margin: 0 auto;
+	background-color: #333333;
+	font-family: 'helvetica' sans-serif;
+	font-size: 1em;
+	color: white;
+}
 
 /*  --------------------  Steady Content  --------------------  */
 
@@ -43,15 +52,15 @@ html {
 	float: right;
 }
 
-.content-p {
+/*.content-p {
 	height: 4000px;
-	width: 80%;
+	width: 100%;
 	font-family: 'helvetica' sans-serif;
 	font-size: 1em;
 	color: white;
 	background-color: #333333;
 	float: right;
-}
+}*/
 
 nav {
 	list-style: none;
@@ -90,14 +99,14 @@ nav a:visited {
 	float: left;
 }
 
-.sidebar-p {
+/*.sidebar-p {
 	height: 4000px;
 	width: 18%;
 	font-family: 'helvetica' sans-serif;
 	background-color: #333333;
 	text-align: center;
 	float: left;
-}
+}*/
 
 .miniphoto {
 	display: block;
@@ -266,12 +275,8 @@ h1 {
 
 
 
-
-
-
-
-
-/*--------------------------------------------------*/
+/*
+--------------------------------------------------
 
 
 
@@ -293,7 +298,7 @@ h1 {
     float: right;
 }
 #dummy {
-    margin-top: 100%; /* 4:3 aspect ratio */
+    margin-top: 100%;
 }
 #photobox {
     position: absolute;
@@ -313,7 +318,7 @@ h1 {
 }
 
 
-/*.photobox1 {
+.photobox1 {
 	width: 40%;
 	height: same-as-width;
 	border: 1px solid white;
@@ -333,13 +338,73 @@ h1 {
 	max-height: 100%;
 	display: block;
 	margin: auto auto;
-}*/
+}
+
+*/
 
 
 
+.a03 {
+	display: block;
+	max-width: 80%;
+	margin: 10px auto;
+}
 
+.a01 {
+	display: block;
+	max-width: 40%;
+	margin: 0 0 100px 7%;
+	float: left;
+}
 
+.a02 {
+	display: block;
+	max-width: 40%;
+	margin: 0 7% 100px 0;
+	float: right;
+}
 
+.b01, .b02, .b03 {
+	display: block;
+	max-width: 80%;
+	clear: both;
+	margin: 10px auto;
+}
+
+.c02 {
+	display: block;
+	max-width: 90%;
+	clear: both;
+	margin: 100px auto 10px auto;
+}
+
+.c03 {
+	display: block;
+	max-width: 90%;
+	clear: both;
+	margin: 10px auto;
+}
+
+.d02 {
+	display: block;
+	max-width: 60%;
+	clear: both;
+	margin: 100px auto 10px auto;
+}
+
+.d01 {
+	display: block;
+	max-width: 40%;
+	margin: 0 0 100px 7%;
+	float: left;
+}
+
+.d03 {
+	display: block;
+	max-width: 40%;
+	margin: 0 7% 100px 0;
+	float: right;
+}
 
 
 

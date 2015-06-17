@@ -12,6 +12,13 @@ html {
 	margin: -30px auto;	
 	max-height: 250px;
 	max-width: 70%;
+				transition-duration: .5s;
+				transition-timing-function: ease;
+
+}
+
+.top:hover {
+	margin-top: 20px;
 }
 
 .footer {
@@ -38,6 +45,22 @@ html {
 	font-size: 1em;
 	color: white;
 }
+
+.cluster-p img {
+	border: solid black 4px;
+				transition-duration: 1s;
+
+}
+
+.cluster-p img:hover {
+	border: solid white 4px;
+}
+
+.cluster-p img:active {
+	opacity: .01;
+}
+
+
 
 /*  --------------------  Steady Content  --------------------  */
 
@@ -404,7 +427,7 @@ h1 {
 	max-width: 90%;
 	clear: both;
 	margin: 10px auto;
-}
+} 
 
 
 

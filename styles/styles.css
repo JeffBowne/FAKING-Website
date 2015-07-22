@@ -197,6 +197,8 @@ h1 {
 }
 
 .links a {
+	display: block;
+	padding-bottom: 20px;
 	font-size: 1vw;
 	color: gray;
 	text-decoration: underline;
@@ -420,7 +422,7 @@ h1 {
 .footer {
 	clear: both;
 	text-align: center;
-	padding: 30px 0;
+	padding: 50px 0 30px 0;
 		transition-duration: 5s;
 }
 
@@ -437,8 +439,8 @@ h1 {
 }
 
 .cluster-p {
-	width: 80%;	
-	height: 5500px;
+	width: 99%;	
+	padding-bottom: 40px;
 	margin: 0 auto;
 	background-color: rgba(51,51,51,.9);
 	font-family: 'helvetica' sans-serif;
@@ -526,13 +528,15 @@ nav a:active {
 
 
 .sidebar {
-	height: 700px;
 	width: 100%;
 	font-family: 'helvetica' sans-serif;
 	background-color: rgba(51,51,51,.9);
 	text-align: center;
 	margin-top: 20px;
 	position: relative;
+	overflow: hidden;
+	border-top: solid black 2px;
+	border-bottom: solid black 2px;
 }
 
 /*.sidebar-p {
@@ -566,18 +570,18 @@ h1 {	display: none;
 
 .releases {
 	color: #F15206;
-	font-size: 5vw;
-	padding: 10px 0 10px 0;
+	font-size: 3vw;
+	padding: 10px 0 5px 0;
 }
 
 .vicesblock {
-	margin: 5px;
+	margin: 0px;
 	max-width: 50%;
 	display: inline-block;
 }
 
 .ghdblock {
-	margin: 5px;
+	margin: 0px 0px 0px 10px;
 	max-width: 50%;
 	display: inline-block;
 }
@@ -592,21 +596,33 @@ h1 {	display: none;
 }
 
 .sidedate {
-	font-size: 3vw;
+	font-size: 3.5vw;
 	color: gray;
 	padding: 0 0 20px 0;
 }
 
 
 .links {
-	padding: 20px 0 40px 0;
+	padding: 10px 0 20px 0;
 	font-family: 'Courier New' serif;
 }
 
 .links a {
-	font-size: 5vw;
+	font-size: 4.5vw;
 	color: gray;
 	text-decoration: underline;
+	padding: 10px;
+}
+.l1 {
+}
+.l2 {
+}
+.l3 {
+	margin-top: 10px;
+	display: block;
+}
+.l4 {
+	display: block;
 }
 
 .links a:hover {

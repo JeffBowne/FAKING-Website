@@ -554,6 +554,8 @@ nav a:active {
 	bottom: 0;
 	z-index: -1;
 	width: 100%;
+	min-height: 100%;
+
 }
 
 h1 {	display: none;

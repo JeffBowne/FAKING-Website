@@ -195,10 +195,20 @@ h1 {
 	padding: 75px 0 0 0;
 	font-family: 'Courier New' serif;
 }
+.l1 {
+	padding-bottom: 20px;
+}
+.l2 {
+	padding-bottom: 20px;
+}
+.l3 {
+	padding-bottom: 20px;
+}
+.l4 {
+	padding-bottom: 20px;
+}
 
 .links a {
-	display: block;
-	padding-bottom: 20px;
 	font-size: 1vw;
 	color: #999;
 	text-decoration: underline;
@@ -616,20 +626,21 @@ h1 {	display: none;
 	font-size: 4.5vw;
 	color: #999;
 	text-decoration: underline;
-	padding: 10px;
-		text-shadow: 0 0 15px #000000;
-
+	text-shadow: 0 0 15px #000, 0 0 5px #000;
 }
 .l1 {
+	display: inline-block;
+	padding-right: 20px;
 }
 .l2 {
+	display: inline-block;
+	padding-left: 20px;
 }
 .l3 {
-	margin-top: 10px;
-	display: block;
+	margin-top: 25px;
 }
 .l4 {
-	display: block;
+	margin-top: 25px;
 }
 
 .links a:hover {

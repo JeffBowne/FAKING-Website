@@ -56,6 +56,7 @@ html {
 }
 
 .cluster-p img {
+	width: 100%;
 	border: solid black 4px;
 				transition-duration: 1s;
 
@@ -457,21 +458,14 @@ h1 {
 	font-family: 'helvetica' sans-serif;
 	font-size: 1em;
 	color: white;
+	border-bottom: solid white 4px;
 }
 
 .cluster-p img {
+	width: 100%;
 	border: solid black 4px;
-				transition-duration: 1s;
-
 }
 
-.cluster-p img:hover {
-	border: solid white 4px;
-}
-
-.cluster-p img:active {
-	opacity: .01;
-}
 
 
 
@@ -643,11 +637,6 @@ h1 {	display: none;
 	margin-top: 25px;
 }
 
-.links a:hover {
-	color: #F15206;
-	text-decoration: underline;
-}
-
 
 /*  --------------------  Pages  --------------------  */
 
@@ -755,21 +744,23 @@ h1 {	display: none;
 
 .sitting {
 	display: block;
-	margin: 0px auto;
-	max-width: 45%;
+	margin: 40px auto;
+	max-width: 80%;
+	padding-bottom: 40px;
 }
 
 .videotitles {
-	margin: 60px 0 0 0;
+	margin: 40px 0 0 0;
 	text-align: center;
 	color: #999;
-	font-size: 2vw;
+	font-size: 4.5vw;
 }
 
 .videoframe {
 	display: block;
-	margin: 0 auto 40px auto;
+	margin: 0 auto;
 	max-width: 80%;
+	padding-bottom: 40px;
 }
 
 
@@ -779,49 +770,49 @@ h1 {	display: none;
 
 .a03 {
 	display: block;
-	max-width: 80%;
-	margin: 10px auto;
+	max-width: 90%;
+	margin: 40px auto 10px auto;
 }
 
 .a01 {
 	display: block;
 	max-width: 40%;
-	margin: 0 0 100px 7%;
+	margin: 0 0 50px 5%;
 	float: left;
 }
 
 .a02 {
 	display: block;
 	max-width: 40%;
-	margin: 0 7% 100px 0;
+	margin: 0 5% 50px 0;
 	float: right;
 }
 
 .b01, .b02, .b03 {
 	display: block;
-	max-width: 80%;
+	max-width: 90%;
 	clear: both;
 	margin: 10px auto;
 }
 
 .d02 {
 	display: block;
-	max-width: 60%;
+	max-width: 70%;
 	clear: both;
-	margin: 100px auto 10px auto;
+	margin: 50px auto 10px auto;
 }
 
 .d01 {
 	display: block;
 	max-width: 40%;
-	margin: 0 0 100px 7%;
+	margin: 0 0 50px 5%;
 	float: left;
 }
 
 .d03 {
 	display: block;
 	max-width: 40%;
-	margin: 0 7% 100px 0;
+	margin: 0 5% 50px 0;
 	float: right;
 }
 

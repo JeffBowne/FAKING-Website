@@ -49,7 +49,7 @@ html {
 	width: 80%;	
 	height: 5500px;
 	margin: 0 auto;
-	background-color: rgba(51,51,51,.9);
+	background-color: rgba(51,51,51,.8);
 	font-family: 'helvetica' sans-serif;
 	font-size: 1em;
 	color: white;
@@ -80,7 +80,7 @@ html {
 	font-family: 'helvetica' sans-serif;
 	font-size: 1em;
 	color: white;
-	background-color: rgba(51,51,51,.9);
+	background-color: rgba(51,51,51,.8);
 	float: right;
 }
 
@@ -136,7 +136,7 @@ nav a:active {
 	height: 1100px;
 	width: 18%;
 	font-family: 'helvetica' sans-serif;
-	background-color: rgba(51,51,51,.9);
+	background-color: rgba(51,51,51,.8);
 	text-align: center;
 	float: left;
 }
@@ -165,7 +165,7 @@ h1 {
 .sideblurb {
 	padding: 0px 20px 60px 20px;
 	font-size: .9vw;
-	color: gray;
+	color: #999;
 }
 
 .releases {
@@ -187,7 +187,7 @@ h1 {
 
 .sidedate {
 	font-size: 1vw;
-	color: gray;
+	color: #999;
 	padding: 0 0 20px 0;
 }
 
@@ -200,7 +200,7 @@ h1 {
 	display: block;
 	padding-bottom: 20px;
 	font-size: 1vw;
-	color: gray;
+	color: #999;
 	text-decoration: underline;
 }
 
@@ -241,13 +241,13 @@ h1 {
 }
 
 .albumdetails {
-	color: gray;
+	color: #999;
 	font-size: .7em;
 	padding: 10px;
 }
 
 .albumdetails a {
-	color: gray;
+	color: #999;
 	text-decoration: underline;
 }
 
@@ -258,7 +258,7 @@ h1 {
 
 .tracktime {
 	font-size: .7em;
-	color: gray;
+	color: #999;
 }
 
 .albumdescription {
@@ -311,7 +311,7 @@ h1 {
 .videotitles {
 	margin: 60px 0 0 0;
 	text-align: center;
-	color: gray;
+	color: #999;
 	font-size: 2vw;
 }
 
@@ -401,10 +401,11 @@ h1 {
 /*  --------------------  Boxes  --------------------  */
 
 .banner {
-	width: 100%;
+	width: 120%;
 	z-index: -1;
 	position: fixed;
 	top: 0;
+	margin-left: -10%;
 }
 
 .top {
@@ -442,7 +443,7 @@ h1 {
 	width: 99%;	
 	padding-bottom: 40px;
 	margin: 0 auto;
-	background-color: rgba(51,51,51,.9);
+	background-color: rgba(51,51,51,.8);
 	font-family: 'helvetica' sans-serif;
 	font-size: 1em;
 	color: white;
@@ -472,7 +473,7 @@ h1 {
 	font-family: 'helvetica' sans-serif;
 	font-size: 1em;
 	color: white;
-	background-color: rgba(51,51,51,.9);
+	background-color: rgba(51,51,51,.8);
 }
 
 /*.content-p {
@@ -506,23 +507,20 @@ nav a {
 			transition-duration: .5s;
 }
 
-nav a:hover {
-	text-shadow: 0 0 15px;
-	color: #F3D182;
-}
 
-nav a:visited {
+
+/*nav a:visited {
 	color: #F15206;
-}
+}*/
 
-nav a:hover:visited {
+/*nav a:hover:visited {
 	text-shadow: 0 0 15px;
 	color: #F3D182;
-}
+}*/
 
-nav a:active {
+/*nav a:active {
 	color: black;
-}
+}*/
 
 /*  --------------------  Side Bar  --------------------  */
 
@@ -530,13 +528,13 @@ nav a:active {
 .sidebar {
 	width: 100%;
 	font-family: 'helvetica' sans-serif;
-	background-color: rgba(51,51,51,.9);
+	background-color: rgba(51,51,51,.8);
 	text-align: center;
 	margin-top: 20px;
 	position: relative;
 	overflow: hidden;
-	border-top: solid black 2px;
-	border-bottom: solid black 2px;
+	border-top: solid black 1px;
+	border-bottom: solid black 1px;
 }
 
 /*.sidebar-p {
@@ -567,13 +565,18 @@ h1 {	display: none;
 .sideblurb {	display: none;
 	padding: 0px 20px 60px 20px;
 	font-size: .9vw;
-	color: gray;
+	color: #999;
 }
 
 .releases {
 	color: #F15206;
 	font-size: 3vw;
 	padding: 10px 0 5px 0;
+}
+
+.current {
+	text-shadow: 0 0 15px;
+	color: #F3D182;
 }
 
 .vicesblock {
@@ -599,7 +602,7 @@ h1 {	display: none;
 
 .sidedate {
 	font-size: 3.5vw;
-	color: gray;
+	color: #999;
 	padding: 0 0 20px 0;
 }
 
@@ -611,9 +614,11 @@ h1 {	display: none;
 
 .links a {
 	font-size: 4.5vw;
-	color: gray;
+	color: #999;
 	text-decoration: underline;
 	padding: 10px;
+		text-shadow: 0 0 15px #000000;
+
 }
 .l1 {
 }
@@ -655,24 +660,33 @@ h1 {	display: none;
 }
 
 .album img {
-	width: 45%;
-	padding: 10px;
-	float: left;
+	width: 80%;
+	padding: 30px 0 0 0;
+	display: block;
+	margin: 0 auto;
 }
 
 .albuminfo {
 	padding-top: 10px;
-	margin-left: 50%;
+	width: 80%;
+	margin: 0 auto;
+}
+.albuminfo h2 {
+	/*text-align: center;*/
+}
+.albuminfo ol {
+	/*margin-left: 20%;*/
 }
 
 .albumdetails {
-	color: gray;
+	width: 80%;
+	margin: 0 auto;
+	color: #999;
 	font-size: .7em;
-	padding: 10px;
 }
 
 .albumdetails a {
-	color: gray;
+	color: #999;
 	text-decoration: underline;
 }
 
@@ -683,7 +697,7 @@ h1 {	display: none;
 
 .tracktime {
 	font-size: .7em;
-	color: gray;
+	color: #999;
 }
 
 .albumdescription {
@@ -710,6 +724,7 @@ h1 {	display: none;
 
 .reviewlink {
 	margin: 40px auto;
+	padding-bottom: 30px; 
 	text-align: center;
 }
 
@@ -736,7 +751,7 @@ h1 {	display: none;
 .videotitles {
 	margin: 60px 0 0 0;
 	text-align: center;
-	color: gray;
+	color: #999;
 	font-size: 2vw;
 }
 

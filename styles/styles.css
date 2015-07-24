@@ -45,30 +45,6 @@ html {
 	margin: 0 auto;
 }
 
-.cluster-p {
-	width: 80%;	
-	height: 5500px;
-	margin: 0 auto;
-	background-color: rgba(51,51,51,.8);
-	font-family: 'helvetica' sans-serif;
-	font-size: 1em;
-	color: white;
-}
-
-.cluster-p img {
-	width: 100%;
-	border: solid black 4px;
-				transition-duration: 1s;
-
-}
-
-.cluster-p img:hover {
-	border: solid white 4px;
-}
-
-.cluster-p img:active {
-	opacity: .01;
-}
 
 
 
@@ -82,6 +58,7 @@ html {
 	font-size: 1em;
 	color: white;
 	background-color: rgba(51,51,51,.8);
+    /*background: linear-gradient(rgba(51,51,51,.8)80%,  rgba(0,0,0,.0) 100% );*/
 	float: right;
 }
 
@@ -137,9 +114,10 @@ nav a:active {
 	height: 1100px;
 	width: 18%;
 	font-family: 'helvetica' sans-serif;
-	background-color: rgba(51,51,51,.8);
 	text-align: center;
 	float: left;
+	background-color: rgba(51,51,51,.8);
+    /*background: linear-gradient(rgba(51,51,51,.8)80%,  rgba(0,0,0,.0) 100% );*/
 }
 
 /*.sidebar-p {
@@ -335,7 +313,34 @@ h1 {
 
 
 
+/*  --------------------  Photos  --------------------  */
 
+
+
+.cluster-p {
+	width: 80%;	
+	height: 5500px;
+	margin: 0 auto;
+	background-color: rgba(51,51,51,.8);
+	font-family: 'helvetica' sans-serif;
+	font-size: 1em;
+	color: white;
+}
+
+.cluster-p img {
+	width: 100%;
+	border: solid black 4px;
+				transition-duration: 1s;
+
+}
+
+.cluster-p img:hover {
+	border: solid white 4px;
+}
+
+.cluster-p img:active {
+	opacity: .01;
+}
 
 .a03 {
 	display: block;
@@ -450,21 +455,6 @@ h1 {
 	margin: 0 auto;
 }
 
-.cluster-p {
-	width: 99%;	
-	padding-bottom: 40px;
-	margin: 0 auto;
-	background-color: rgba(51,51,51,.8);
-	font-family: 'helvetica' sans-serif;
-	font-size: 1em;
-	color: white;
-	border-bottom: solid white 4px;
-}
-
-.cluster-p img {
-	width: 100%;
-	border: solid black 4px;
-}
 
 
 
@@ -767,6 +757,23 @@ h1 {	display: none;
 
 
 
+/*  --------------------  Photos  --------------------  */
+
+
+.cluster-p {
+	width: 99%;	
+	padding-bottom: 40px;
+	margin: 0 auto;
+	background-color: rgba(51,51,51,.8);
+	font-family: 'helvetica' sans-serif;
+	font-size: 1em;
+	color: white;
+}
+
+.cluster-p img {
+	width: 100%;
+	border: solid black 4px;
+}
 
 .a03 {
 	display: block;

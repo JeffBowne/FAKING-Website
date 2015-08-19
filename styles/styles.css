@@ -4,7 +4,7 @@ html {
 }
 /*  ----------------------------------------  Desktop  ----------------------------------------  */
 
-@media (min-width: 480.0001px) {
+@media (min-width: 650.0001px) {
 /*  --------------------  Boxes  --------------------  */
 
 .banner {
@@ -19,7 +19,7 @@ html {
 	margin: -30px auto;	
 	max-height: 250px;
 	max-width: 70%;
-				transition-duration: 5s;
+				transition-duration: 1s;
 }
 
 .top:hover {
@@ -30,7 +30,7 @@ html {
 	clear: both;
 	text-align: center;
 	padding: 100px 100px;
-		transition-duration: 5s;
+		transition-duration: 1s;
 }
 
 .footer img {
@@ -413,7 +413,7 @@ h1 {
 /*  ----------------------------------------  Mobile  ----------------------------------------  */
 /*  ----------------------------------------  Mobile  ----------------------------------------  */
 
-@media (max-width: 480px) {
+@media (max-width: 650px) {
 /*  --------------------  Boxes  --------------------  */
 
 .banner {
@@ -429,7 +429,7 @@ h1 {
 	margin: -20px auto;	
 	max-height: 250px;
 	max-width: 85%;
-				transition-duration: 5s;
+				transition-duration: 1s;
 }
 
 .top:hover {
@@ -440,7 +440,7 @@ h1 {
 	clear: both;
 	text-align: center;
 	padding: 50px 0 30px 0;
-		transition-duration: 5s;
+		transition-duration: 1s;
 }
 
 .footer img {

@@ -404,6 +404,89 @@ h1 {
 	padding-bottom: 40px;
 } 
 
+
+
+
+
+.show {
+	width: 70%;
+	margin: 50px auto 100px auto;
+	border-top: solid grey 4px;
+	border-left: solid grey 4px;
+	border-right: solid grey 4px;
+	text-align: center;
+	font-size: 1.2vw;
+	font-family: 'Courier New' serif;
+}
+.date {
+	font-size: 2vw;
+
+}
+
+.with {
+	color: grey;
+	margin-top: 10px;
+}
+
+.band {
+	margin: 0 0 20px 0;
+	letter-spacing: 5px;
+	font-size: 1.8vw;
+	font-weight: bold;
+}
+.band a {
+	color: white;
+}
+.band a:hover {
+	color: #F15206;
+	text-decoration: underline;
+}
+
+.location {
+}
+.location a {
+	font-size: 1.5vw;
+	color: white;
+}
+.location a:hover {
+	color: #F15206;
+	text-decoration: underline;
+}
+.address {
+	color: grey;
+}
+
+.event {
+	font-size: 1.5vw;
+
+}
+.event a {
+	color: white;
+}
+.event a:hover {
+	color: #F15206;
+	text-decoration: underline;
+}
+
+
+.time {
+	font-weight: bold;
+	font-size: 1.8vw;
+	float: left;
+	margin-left: -8px;
+}
+.price {
+	font-weight: bold;
+	font-size: 1.8vw;
+	float: right;
+	margin-right: -8px;
+}
+
+
+
+
+
+
 }
 
 /*  ----------------------------------------  Mobile  ----------------------------------------  */
@@ -838,6 +921,92 @@ h1 {	display: none;
 	margin: 10px auto;
 	padding-bottom: 40px;
 } 
+
+
+
+
+
+
+.show {
+	width: 90%;
+	margin: 50px auto 100px auto;
+	border-top: solid grey 4px;
+	border-left: solid grey 4px;
+	border-right: solid grey 4px;
+	text-align: center;
+	font-size: 5vw;
+	font-family: 'Courier New' serif;
+}
+.date {
+	font-size: 6vw;
+
+}
+
+.with {
+	color: grey;
+	margin-top: 10px;
+}
+
+.band {
+	margin: 0 0 20px 0;
+	letter-spacing: 5px;
+	font-size: 6vw;
+	font-weight: bold;
+}
+.band a {
+	color: white;
+}
+.band a:hover {
+	color: #F15206;
+	text-decoration: underline;
+}
+
+.location {
+}
+.location span {
+	display: block;
+}
+.location a {
+	font-size: 6vw;
+	color: white;
+}
+.location a:hover {
+	color: #F15206;
+	text-decoration: underline;
+}
+.address {
+	color: grey;
+}
+
+.event {
+	font-size: 6vw;
+	margin-top: 10px;
+}
+.event a {
+	color: white;
+}
+.event a:hover {
+	color: #F15206;
+	text-decoration: underline;
+}
+
+
+.time {
+	font-weight: bold;
+	font-size: 6vw;
+	float: left;
+	margin-left: -8px;
+}
+.price {
+	font-weight: bold;
+	font-size: 6vw;
+	float: right;
+	margin-right: -8px;
+}
+
+
+
+
 
 }
 

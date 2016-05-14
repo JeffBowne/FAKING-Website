@@ -84,7 +84,9 @@ nav li {
 nav a {
 	color: #F15206;
 	text-decoration: none;
-			transition-duration: .5s;
+	-webkit-transition-duration: 500ms;
+	-o-transition-duration: 500ms;
+	transition-duration: 500ms;
 }
 
 nav a:hover {
@@ -105,7 +107,7 @@ nav a:active {
 	color: black;
 }
 
-.current {
+nav a.current {
 	text-shadow: 0 0 15px;
 	color: #F3D182;
 }
@@ -142,7 +144,7 @@ nav a:active {
 h1 {
 	font-family: 'HelveticaNeue-CondensedBold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	margin: 0;
-	color: #F15206;
+	color: #999;
 	font-size: 2.5vw;
 }
 
@@ -263,6 +265,16 @@ h1 {
 	display: block;
 	max-width: 100%;
 	margin: 20px auto;
+	-webkit-transition-duration: 300ms;
+	-o-transition-duration: 300ms;
+	transition-duration: 300ms;
+}
+
+.faces:hover {
+	background-color: black;
+	-webkit-transition-duration: 30s;
+	-o-transition-duration: 30s;
+	transition-duration: 30s;
 }
 
 .album img {
@@ -376,7 +388,9 @@ h1 {
 .cluster-p img {
 	width: 100%;
 	border: solid black 4px;
-				transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	transition-duration: 1s;
 
 }
 
@@ -680,7 +694,9 @@ nav li {
 nav a {
 	color: #F15206;
 	text-decoration: none;
-			transition-duration: .5s;
+	-webkit-transition-duration: 500ms;
+	-o-transition-duration: 500ms;
+	transition-duration: 500ms;
 }
 
 
@@ -734,7 +750,7 @@ nav a {
 
 h1 {	display: none;
 	margin: 0;
-	color: #F15206;
+	color: white;
 	font-size: 2.5vw;
 }
 

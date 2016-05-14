@@ -481,6 +481,54 @@ h1 {
 
 
 
+.release-show-cover {
+	margin: 0 auto;
+	width: 40%;
+	border: solid black 3px;
+}
+
+
+
+
+
+
+/*  --------------------  Press  --------------------  */
+
+.press {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	width: 85%;
+	margin: 50px auto 50px auto;
+	border-top: solid grey 2px;
+	border-left: solid grey 2px;
+	padding: 5px 0 0 5px;
+}
+
+
+.article {
+	font-size: 1.5vw;
+}
+.article a {
+	color: white;
+	text-decoration: none;
+}
+.article a:hover {
+	/*color: #F3D182;*/
+	text-decoration: underline;
+}
+
+.source {
+	font-size: 1vw;
+	color: grey;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -999,6 +1047,57 @@ h1 {	display: none;
 	float: right;
 	margin-right: -8px;
 }
+
+
+
+
+
+.release-show-cover {
+	margin: 0 auto;
+	width: 90%;
+	border: solid black 3px;
+}
+
+
+
+
+/*  --------------------  Press  --------------------  */
+
+.press {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	width: 95%;
+	margin: 40px auto 40px auto;
+	border-top: solid grey 2px;
+	border-left: solid grey 2px;
+	padding: 5px 0 0 5px;
+}
+
+
+.article {
+	font-size: 4vw;
+}
+.article a {
+	color: white;
+	text-decoration: none;
+}
+.article a:hover {
+	/*color: #F3D182;*/
+	text-decoration: underline;
+}
+
+.source {
+	font-size: 3vw;
+	color: grey;
+}
+
+
+
+
+
+
+
+
+
 
 
 

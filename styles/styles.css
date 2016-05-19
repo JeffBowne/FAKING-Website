@@ -587,7 +587,11 @@ h1 {
 
 
 
-
+.soundcloudframe {
+	display: block;
+	width: 60%;
+	margin: 0px auto 20px;
+}
 
 
 
@@ -1202,7 +1206,11 @@ h1 {	display: none;
 
 
 
-
+.soundcloudframe {
+	display: block;
+	width: 100%;
+	margin: 0px auto 20px;
+}
 
 
 

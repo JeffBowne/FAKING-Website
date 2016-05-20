@@ -562,14 +562,17 @@ h1 {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	width: 85%;
 	margin: 50px auto 50px auto;
+	padding: 5px 0 0 5px;
+}
+
+.press-border {
 	border-top: solid grey 2px;
 	border-left: solid grey 2px;
-	padding: 5px 0 0 5px;
 }
 
 
 .article {
-	font-size: 1.5vw;
+	font-size: 16px;
 }
 .article a {
 	color: white;
@@ -581,7 +584,11 @@ h1 {
 }
 
 .source {
-	font-size: 1vw;
+	font-size: 12px;
+	color: grey;
+}
+.source-big {
+	font-size: 16px;
 	color: grey;
 }
 
@@ -1181,9 +1188,12 @@ h1 {	display: none;
 	width: 95%;
 	max-width: 500px;
 	margin: 40px auto 40px auto;
+	padding: 5px 0 10px 5px;
+}
+
+.press-border {	
 	border-top: solid grey 2px;
 	border-left: solid grey 2px;
-	padding: 5px 0 0 5px;
 }
 
 
@@ -1200,7 +1210,11 @@ h1 {	display: none;
 }
 
 .source {
-	font-size: 3vw;
+	font-size: 12px;
+	color: grey;
+}
+.source-big {
+	font-size: 14px;
 	color: grey;
 }
 

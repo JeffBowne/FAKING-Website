@@ -1013,6 +1013,13 @@ h1.headline {
 	left: 30px;
 }
 
+.p2:active,
+.p3:active,
+.p4:active,
+.p5:active {
+	color: white;
+}
+
 .faces {
 	display: block;
 	max-width: 100%;

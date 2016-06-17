@@ -605,13 +605,17 @@ h1.headline {
 
 
 
-.release-show-cover {
+.flyer1 {
 	margin: 0 auto;
-	width: 40%;
+	width: 50%;
 	border: solid black 3px;
 }
 
-
+.flyer2 {
+	margin: 0 auto;
+	width: 90%;
+	border: solid black 3px;
+}
 
 
 
@@ -1301,7 +1305,8 @@ h1.headline {
 
 
 
-.release-show-cover {
+.flyer1,
+.flyer2 {
 	margin: 0 auto;
 	width: 90%;
 	border: solid black 3px;

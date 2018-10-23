@@ -6,9 +6,14 @@ html {
 .clearfix {
 	clear: both;
 }
+
+.nowrap {
+    white-space: nowrap;
+}
+
 /*  ----------------------------------------  Desktop  ----------------------------------------  */
 
-@media only screen and (min-width: 768.0001px) {
+@media only screen and (min-width: 740.0001px) {
 /*  --------------------  Boxes  --------------------  */
 
 .banner {
@@ -20,6 +25,7 @@ html {
 
 .top {
 	position: relative;
+	z-index: 2;
 	display: block;
 	margin: -30px auto;	
 	max-height: 250px;
@@ -37,6 +43,8 @@ html {
 }
 
 .cluster {
+	position: relative;
+	z-index: 1;
 	width: 80%;
 	margin: 0 auto;
 	display: flex;
@@ -211,64 +219,67 @@ nav a.current {
 
 /*  --------------------  Pages  --------------------  */
 
-div.headline {
-	margin: 50px 0 0;
-}
-h1.headline {
-	padding: 10px 0;
-	margin: 10px 0;
-}
+
 .headline {
+	margin: 50px 0 0;
 	font-family: 'HelveticaNeue-CondensedBold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 2vw;
+	font-size: 1.5vw;
 	letter-spacing: 4px;
 	text-align: center;
 	border-top: solid black 4px;
 	border-bottom: solid black 4px;
 }
 
-.headline span {
+.headline__link {
 	display: block;
-	font-size: 4vw;
-	letter-spacing: 8px;
-}
-
-.headline a {
+	padding: 10px 0;
+	margin: 10px 0;
 	color: #F15206;
 	text-shadow: 0 0 0px;
+	border-top: solid black 4px;
+	border-bottom: solid black 4px;
 	text-decoration: none;
 	-webkit-transition-duration: 300ms;
 	-o-transition-duration: 300ms;
 	transition-duration: 300ms;
 }
 
-.headline a:hover {
+.headline__link:hover {
 	text-shadow: 0 0 15px #F3D182;
 	color: #F3D182;
 	-webkit-transition-duration: 600ms;
 	-o-transition-duration: 600ms;
 	transition-duration: 600ms;
+	background: rgba(243,209,130,0.1);
 }
 
-.headline a:visited {
+.headline__link:visited {
 	text-shadow: 0 0 0px #F3D182;
 	color: #F15206;
 }
 
-.headline a:hover:visited {
+.headline__link:hover:visited {
 	text-shadow: 0 0 15px #F3D182;
 	color: #F3D182;
 }
 
-.headline a:active {
+.headline__link:active {
 	color: black;
 }
 
-.headline a.current {
-	text-shadow: 0 0 15px #F3D182;
-	color: #F3D182;
+.headline__heading {
+	vertical-align: middle;
+	margin: 0;
+	display: inline-block;
+	width: 45%;
+	text-align: left;
 }
 
+.headline__screen-cap {
+	vertical-align: middle;
+	display: inline-block;
+	width: 45%;
+}
 
 .mainblurb {
 	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
@@ -692,7 +703,7 @@ h1.headline {
 /*  ----------------------------------------  Mobile  ----------------------------------------  */
 /*  ----------------------------------------  Mobile  ----------------------------------------  */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 740px) {
 /*  --------------------  Boxes  --------------------  */
 
 .banner {
@@ -705,6 +716,7 @@ h1.headline {
 
 .top {
 	position: relative;
+	z-index: 2;
 	display: block;
 	margin: -20px auto;	
 	max-height: 250px;
@@ -722,6 +734,8 @@ h1.headline {
 }
 
 .cluster {
+	position: relative;
+	z-index: 1;
 	width: 99%;
 	margin: 0 auto;
 }
@@ -905,54 +919,54 @@ nav a {
 /*  --------------------  Pages  --------------------  */
 
 
-div.headline {
-	margin: 50px 0 0;
-}
-h1.headline {
-	padding: 10px 0;
-	margin: 10px 0;
-}
 .headline {
+	margin: 50px 0 0;
 	font-family: 'HelveticaNeue-CondensedBold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 4vw;
-	letter-spacing: 1px;
+	font-size: 2vw;
+	letter-spacing: 4px;
 	text-align: center;
 	border-top: solid black 4px;
 	border-bottom: solid black 4px;
 }
 
-.headline span {
+.headline__link {
 	display: block;
-	font-size: 9vw;
-	letter-spacing: 6px;
-}
-
-.headline a {
-	animation: drive 4s infinite;
+	margin: 10px 0;
+	color: #F15206;
+	text-shadow: 0 0 0px;
 	text-decoration: none;
+	-webkit-transition-duration: 300ms;
+	-o-transition-duration: 300ms;
+	transition-duration: 300ms;
 }
 
-.headline a:hover {
+.headline__link:hover {
 	color: #F3D182;
-	text-decoration: underline;
+	-webkit-transition-duration: 600ms;
+	-o-transition-duration: 600ms;
+	transition-duration: 600ms;
 }
 
-.headline a:visited {
+.headline__link:visited {
 	color: #F15206;
 }
 
-.headline a:hover:visited {
+.headline__link:hover:visited {
 	color: #F3D182;
 }
 
-.headline a:active {
+.headline__link:active {
 	color: black;
 }
 
-.headline a.current {
-	color: #F3D182;
+.headline__heading {
+	margin: 8px 0;
 }
-  
+
+.headline__screen-cap {
+	width: 90%;
+	max-width: 300px;
+}
 
 @keyframes drive {
   0% {
@@ -971,7 +985,7 @@ h1.headline {
 	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
 	font-size: .74em;
 	width: 100%;
-	height: 350px;
+	height: 450px;
 	position: relative;
 	/*background-color: rgba(61,61,61,.4);*/
 	overflow: hidden;
